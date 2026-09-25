@@ -1,0 +1,7 @@
+Step,Transformation
+1,Filled 30 missing Price values using median price (124636.19).
+2,Removed 15 duplicate orders based on Order ID.
+3,Replaced 20 invalid quantities using median quantity (5).
+4,Standardized 405 inconsistent city names using strip() and title().
+5,Converted all Order Date values to a standard datetime format.
+6,Converted Order Date to YYYY-MM-DD format.
