@@ -1,0 +1,13 @@
+Month,Revenue,Orders,Profit,Product Category
+January,125000,420,28000,Electronics
+February,138000,455,31000,Clothing
+March,152000,490,35000,Electronics
+April,145000,470,33000,Home
+May,168000,525,39000,Clothing
+June,175000,550,42000,Electronics
+July,160000,510,37000,Home
+August,182000,575,45000,Electronics
+September,155000,495,36000,Clothing
+October,195000,620,48000,Electronics
+November,210000,680,53000,Clothing
+December,225000,720,58000,Electronics
