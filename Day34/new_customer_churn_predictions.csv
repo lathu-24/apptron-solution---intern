@@ -1,0 +1,11 @@
+Age,Tenure,Monthly Charges,Total Charges,Support Calls,Internet Usage,Previous Complaints,Contract Type,Payment Method,Churn Probability (%),Predicted Churn
+28,4,120,480,6,55,3,Month-to-month,Electronic check,77.34,Yes
+45,48,75,3600,1,25,0,One year,Credit card,4.72,No
+62,8,145,1160,7,80,4,Month-to-month,Electronic check,85.24,Yes
+35,60,55,3300,0,18,0,Two year,Bank transfer,1.15,No
+24,3,95,285,5,65,2,Month-to-month,Mailed check,61.13,Yes
+51,36,110,3960,2,42,1,One year,Bank transfer,11.0,No
+39,12,160,1920,8,90,5,Month-to-month,Electronic check,90.98,Yes
+29,54,68,3672,1,30,0,Two year,Credit card,1.9,No
+70,6,130,780,4,70,2,Month-to-month,Electronic check,61.75,Yes
+42,24,85,2040,2,35,1,One year,Mailed check,13.99,No
