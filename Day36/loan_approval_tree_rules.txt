@@ -1,0 +1,13 @@
+|--- Credit Score <= 649.50
+|   |--- class: 0
+|--- Credit Score >  649.50
+|   |--- Existing Loans <= 3.50
+|   |   |--- Employment Years <= 1.50
+|   |   |   |--- class: 0
+|   |   |--- Employment Years >  1.50
+|   |   |   |--- Income <= 25070.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- Income >  25070.00
+|   |   |   |   |--- class: 1
+|   |--- Existing Loans >  3.50
+|   |   |--- class: 0
