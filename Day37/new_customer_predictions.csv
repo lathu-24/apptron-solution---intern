@@ -1,0 +1,11 @@
+Customer,Age,Income,Website Visits,Time Spent,Previous Purchases,Product Views,Predicted
+New Customer 1,22,35000,3,5,0,4,Not Purchased
+New Customer 2,35,85000,15,35,8,25,Purchased
+New Customer 3,45,120000,8,20,4,15,Not Purchased
+New Customer 4,28,45000,20,45,10,35,Purchased
+New Customer 5,52,65000,5,10,1,8,Not Purchased
+New Customer 6,31,95000,18,40,12,30,Purchased
+New Customer 7,40,70000,12,25,5,20,Not Purchased
+New Customer 8,24,40000,25,50,15,40,Purchased
+New Customer 9,60,55000,2,3,0,3,Not Purchased
+New Customer 10,38,110000,22,55,18,45,Purchased

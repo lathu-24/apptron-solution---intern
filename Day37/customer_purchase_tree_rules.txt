@@ -1,0 +1,94 @@
+|--- Website Visits <= 12.50
+|   |--- Previous Purchases <= 8.50
+|   |   |--- Product Views <= 29.50
+|   |   |   |--- Website Visits <= 9.50
+|   |   |   |   |--- Product Views <= 22.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Product Views >  22.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Website Visits >  9.50
+|   |   |   |   |--- Time Spent <= 55.77
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Time Spent >  55.77
+|   |   |   |   |   |--- class: 1
+|   |   |--- Product Views >  29.50
+|   |   |   |--- Time Spent <= 35.04
+|   |   |   |   |--- Website Visits <= 7.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Website Visits >  7.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Time Spent >  35.04
+|   |   |   |   |--- Age <= 29.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Age >  29.50
+|   |   |   |   |   |--- class: 1
+|   |--- Previous Purchases >  8.50
+|   |   |--- Product Views <= 11.50
+|   |   |   |--- Time Spent <= 34.43
+|   |   |   |   |--- Income <= 148645.00
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Income >  148645.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Time Spent >  34.43
+|   |   |   |   |--- Previous Purchases <= 13.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Previous Purchases >  13.50
+|   |   |   |   |   |--- class: 1
+|   |   |--- Product Views >  11.50
+|   |   |   |--- Time Spent <= 9.63
+|   |   |   |   |--- Time Spent <= 6.96
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Time Spent >  6.96
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Time Spent >  9.63
+|   |   |   |   |--- Product Views <= 22.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Product Views >  22.50
+|   |   |   |   |   |--- class: 1
+|--- Website Visits >  12.50
+|   |--- Previous Purchases <= 7.50
+|   |   |--- Product Views <= 21.50
+|   |   |   |--- Time Spent <= 42.53
+|   |   |   |   |--- Website Visits <= 22.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Website Visits >  22.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Time Spent >  42.53
+|   |   |   |   |--- Age <= 50.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Age >  50.50
+|   |   |   |   |   |--- class: 1
+|   |   |--- Product Views >  21.50
+|   |   |   |--- Income <= 84707.50
+|   |   |   |   |--- Website Visits <= 18.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Website Visits >  18.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Income >  84707.50
+|   |   |   |   |--- Time Spent <= 1.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Time Spent >  1.50
+|   |   |   |   |   |--- class: 1
+|   |--- Previous Purchases >  7.50
+|   |   |--- Product Views <= 5.50
+|   |   |   |--- Time Spent <= 16.17
+|   |   |   |   |--- Website Visits <= 18.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Website Visits >  18.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Time Spent >  16.17
+|   |   |   |   |--- Income <= 51173.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Income >  51173.50
+|   |   |   |   |   |--- class: 1
+|   |   |--- Product Views >  5.50
+|   |   |   |--- Time Spent <= 15.78
+|   |   |   |   |--- Income <= 80128.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Income >  80128.00
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Time Spent >  15.78
+|   |   |   |   |--- Income <= 25586.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Income >  25586.50
+|   |   |   |   |   |--- class: 1

@@ -1,0 +1,401 @@
+Customer,Actual,Predicted
+1075,Purchased,Purchased
+1492,Purchased,Purchased
+1537,Not Purchased,Not Purchased
+1870,Purchased,Purchased
+1807,Purchased,Purchased
+1071,Purchased,Purchased
+1259,Purchased,Purchased
+1503,Purchased,Purchased
+1839,Purchased,Not Purchased
+330,Purchased,Purchased
+1042,Purchased,Purchased
+1595,Purchased,Purchased
+869,Purchased,Not Purchased
+281,Purchased,Purchased
+1553,Purchased,Purchased
+1170,Not Purchased,Purchased
+645,Purchased,Purchased
+1091,Not Purchased,Not Purchased
+1250,Purchased,Purchased
+951,Purchased,Purchased
+1913,Not Purchased,Purchased
+905,Purchased,Purchased
+888,Purchased,Purchased
+1703,Purchased,Purchased
+1531,Purchased,Purchased
+988,Purchased,Purchased
+937,Not Purchased,Not Purchased
+1378,Purchased,Purchased
+1125,Purchased,Purchased
+588,Purchased,Purchased
+874,Purchased,Purchased
+720,Not Purchased,Not Purchased
+1543,Purchased,Purchased
+144,Purchased,Purchased
+1948,Purchased,Purchased
+1808,Purchased,Purchased
+596,Purchased,Purchased
+1111,Purchased,Purchased
+929,Purchased,Purchased
+1729,Purchased,Purchased
+1568,Purchased,Purchased
+1798,Purchased,Purchased
+1505,Purchased,Not Purchased
+1072,Purchased,Not Purchased
+483,Purchased,Purchased
+892,Purchased,Not Purchased
+1027,Purchased,Purchased
+1915,Purchased,Purchased
+954,Not Purchased,Not Purchased
+1920,Purchased,Purchased
+502,Purchased,Not Purchased
+741,Not Purchased,Not Purchased
+1214,Purchased,Purchased
+1119,Purchased,Purchased
+1767,Purchased,Purchased
+302,Purchased,Purchased
+228,Purchased,Purchased
+797,Purchased,Purchased
+128,Purchased,Purchased
+1161,Purchased,Purchased
+1707,Purchased,Purchased
+1618,Purchased,Not Purchased
+1779,Purchased,Purchased
+1471,Purchased,Not Purchased
+782,Not Purchased,Purchased
+514,Purchased,Purchased
+1135,Purchased,Purchased
+572,Not Purchased,Purchased
+1029,Purchased,Purchased
+1474,Purchased,Purchased
+757,Purchased,Not Purchased
+612,Purchased,Purchased
+560,Purchased,Purchased
+443,Purchased,Purchased
+1513,Purchased,Not Purchased
+821,Purchased,Purchased
+1982,Purchased,Purchased
+1538,Not Purchased,Purchased
+634,Purchased,Not Purchased
+13,Purchased,Purchased
+592,Purchased,Purchased
+2000,Not Purchased,Not Purchased
+1858,Purchased,Purchased
+875,Purchased,Purchased
+1107,Purchased,Purchased
+1685,Purchased,Not Purchased
+1865,Purchased,Purchased
+50,Not Purchased,Purchased
+9,Not Purchased,Purchased
+1528,Purchased,Purchased
+1165,Purchased,Purchased
+1369,Not Purchased,Purchased
+1249,Purchased,Purchased
+65,Purchased,Purchased
+1336,Purchased,Purchased
+919,Not Purchased,Purchased
+1050,Not Purchased,Not Purchased
+973,Purchased,Purchased
+504,Purchased,Purchased
+485,Purchased,Not Purchased
+1344,Purchased,Purchased
+1160,Not Purchased,Purchased
+37,Purchased,Purchased
+150,Purchased,Purchased
+1283,Not Purchased,Not Purchased
+1332,Purchased,Purchased
+1635,Not Purchased,Purchased
+1629,Purchased,Not Purchased
+513,Purchased,Purchased
+1146,Purchased,Purchased
+464,Purchased,Purchased
+681,Not Purchased,Purchased
+1547,Purchased,Purchased
+1754,Not Purchased,Not Purchased
+1109,Purchased,Purchased
+910,Purchased,Purchased
+642,Purchased,Purchased
+322,Not Purchased,Purchased
+1208,Purchased,Purchased
+1960,Not Purchased,Not Purchased
+1413,Purchased,Purchased
+1567,Purchased,Purchased
+766,Purchased,Purchased
+1418,Not Purchased,Not Purchased
+1321,Purchased,Purchased
+385,Not Purchased,Not Purchased
+1556,Not Purchased,Not Purchased
+1009,Purchased,Purchased
+1138,Purchased,Purchased
+264,Purchased,Purchased
+1747,Purchased,Not Purchased
+1552,Not Purchased,Purchased
+591,Purchased,Purchased
+529,Not Purchased,Purchased
+1175,Not Purchased,Not Purchased
+1644,Purchased,Purchased
+1603,Purchased,Purchased
+949,Purchased,Purchased
+1856,Purchased,Purchased
+640,Purchased,Purchased
+51,Purchased,Purchased
+924,Purchased,Purchased
+939,Not Purchased,Not Purchased
+590,Purchased,Not Purchased
+1660,Purchased,Purchased
+1192,Purchased,Purchased
+495,Purchased,Purchased
+188,Purchased,Purchased
+1909,Purchased,Purchased
+1535,Purchased,Purchased
+139,Purchased,Not Purchased
+1611,Purchased,Purchased
+1414,Purchased,Purchased
+78,Purchased,Purchased
+56,Purchased,Purchased
+46,Purchased,Purchased
+778,Purchased,Purchased
+1347,Purchased,Not Purchased
+240,Not Purchased,Not Purchased
+460,Not Purchased,Not Purchased
+1946,Not Purchased,Purchased
+1585,Purchased,Not Purchased
+328,Purchased,Not Purchased
+431,Not Purchased,Purchased
+1615,Purchased,Purchased
+1182,Not Purchased,Not Purchased
+241,Not Purchased,Purchased
+1428,Purchased,Purchased
+903,Purchased,Purchased
+1681,Purchased,Purchased
+1020,Purchased,Purchased
+1110,Not Purchased,Not Purchased
+1491,Purchased,Purchased
+1750,Purchased,Purchased
+958,Purchased,Purchased
+223,Not Purchased,Purchased
+1686,Not Purchased,Not Purchased
+971,Purchased,Purchased
+1407,Purchased,Purchased
+1742,Purchased,Not Purchased
+1263,Purchased,Purchased
+1343,Not Purchased,Purchased
+928,Purchased,Purchased
+1952,Not Purchased,Not Purchased
+1248,Purchased,Purchased
+507,Purchased,Purchased
+175,Purchased,Purchased
+374,Not Purchased,Purchased
+469,Not Purchased,Purchased
+1406,Not Purchased,Purchased
+1759,Not Purchased,Not Purchased
+1876,Purchased,Purchased
+541,Purchased,Purchased
+370,Purchased,Purchased
+1841,Purchased,Purchased
+89,Not Purchased,Not Purchased
+835,Not Purchased,Not Purchased
+1127,Purchased,Purchased
+282,Purchased,Purchased
+852,Purchased,Purchased
+1872,Purchased,Purchased
+943,Purchased,Purchased
+1311,Purchased,Purchased
+1352,Purchased,Purchased
+1561,Purchased,Purchased
+825,Not Purchased,Purchased
+1087,Not Purchased,Not Purchased
+1826,Purchased,Purchased
+15,Purchased,Purchased
+849,Purchased,Purchased
+904,Purchased,Purchased
+1059,Not Purchased,Purchased
+208,Not Purchased,Purchased
+251,Purchased,Purchased
+987,Purchased,Purchased
+209,Purchased,Purchased
+945,Purchased,Purchased
+828,Not Purchased,Not Purchased
+1132,Purchased,Purchased
+976,Purchased,Purchased
+1308,Purchased,Purchased
+1325,Purchased,Purchased
+1191,Purchased,Purchased
+69,Purchased,Purchased
+1888,Not Purchased,Not Purchased
+1646,Purchased,Purchased
+247,Purchased,Purchased
+360,Purchased,Purchased
+1373,Purchased,Purchased
+1429,Purchased,Purchased
+84,Not Purchased,Not Purchased
+1981,Purchased,Purchased
+536,Purchased,Purchased
+140,Not Purchased,Not Purchased
+1144,Not Purchased,Not Purchased
+1154,Purchased,Not Purchased
+1004,Purchased,Not Purchased
+649,Purchased,Purchased
+28,Purchased,Purchased
+515,Purchased,Purchased
+1840,Purchased,Purchased
+1671,Purchased,Purchased
+893,Purchased,Purchased
+221,Not Purchased,Not Purchased
+1846,Purchased,Purchased
+1548,Not Purchased,Not Purchased
+1188,Purchased,Purchased
+1608,Not Purchased,Not Purchased
+1838,Purchased,Purchased
+224,Purchased,Purchased
+1,Purchased,Not Purchased
+249,Not Purchased,Purchased
+1632,Purchased,Not Purchased
+1448,Purchased,Purchased
+670,Purchased,Purchased
+1238,Purchased,Purchased
+451,Not Purchased,Purchased
+1877,Not Purchased,Purchased
+1557,Purchased,Purchased
+288,Purchased,Purchased
+1473,Not Purchased,Not Purchased
+1078,Purchased,Purchased
+1734,Purchased,Purchased
+1417,Purchased,Purchased
+694,Purchased,Purchased
+1220,Purchased,Purchased
+857,Purchased,Purchased
+1642,Purchased,Purchased
+1018,Not Purchased,Purchased
+54,Purchased,Purchased
+1934,Not Purchased,Not Purchased
+216,Purchased,Purchased
+1854,Purchased,Purchased
+1929,Purchased,Purchased
+1900,Purchased,Not Purchased
+1849,Purchased,Not Purchased
+1203,Purchased,Purchased
+1947,Purchased,Purchased
+585,Not Purchased,Not Purchased
+1394,Purchased,Purchased
+573,Purchased,Purchased
+730,Not Purchased,Not Purchased
+1402,Purchased,Purchased
+1245,Purchased,Not Purchased
+1879,Not Purchased,Not Purchased
+763,Not Purchased,Purchased
+1145,Not Purchased,Purchased
+960,Purchased,Purchased
+1702,Purchased,Not Purchased
+1036,Purchased,Not Purchased
+1166,Purchased,Purchased
+1571,Purchased,Purchased
+1408,Purchased,Purchased
+130,Purchased,Purchased
+1510,Purchased,Purchased
+953,Purchased,Purchased
+1614,Purchased,Purchased
+577,Purchased,Purchased
+111,Purchased,Purchased
+583,Purchased,Purchased
+1986,Purchased,Purchased
+749,Purchased,Not Purchased
+1153,Purchased,Purchased
+948,Purchased,Purchased
+1600,Purchased,Purchased
+441,Purchased,Not Purchased
+1058,Purchased,Purchased
+643,Purchased,Purchased
+1339,Purchased,Purchased
+1517,Not Purchased,Purchased
+1867,Purchased,Purchased
+993,Purchased,Purchased
+1357,Purchased,Purchased
+1136,Not Purchased,Purchased
+1574,Purchased,Purchased
+526,Purchased,Not Purchased
+1335,Purchased,Purchased
+1105,Purchased,Purchased
+1221,Purchased,Purchased
+339,Purchased,Not Purchased
+1751,Purchased,Not Purchased
+863,Purchased,Purchased
+1645,Purchased,Purchased
+1431,Not Purchased,Purchased
+684,Not Purchased,Purchased
+1315,Purchased,Purchased
+710,Purchased,Purchased
+1355,Not Purchased,Purchased
+1995,Not Purchased,Not Purchased
+915,Purchased,Purchased
+824,Not Purchased,Not Purchased
+1076,Purchased,Purchased
+1624,Not Purchased,Not Purchased
+1320,Purchased,Purchased
+1450,Purchased,Purchased
+463,Purchased,Purchased
+318,Purchased,Purchased
+1597,Purchased,Purchased
+1383,Purchased,Purchased
+843,Not Purchased,Not Purchased
+664,Purchased,Not Purchased
+895,Purchased,Purchased
+1581,Purchased,Purchased
+1262,Purchased,Purchased
+610,Purchased,Purchased
+1290,Not Purchased,Not Purchased
+1783,Purchased,Purchased
+82,Purchased,Purchased
+732,Purchased,Purchased
+1504,Purchased,Purchased
+125,Purchased,Purchased
+1477,Purchased,Purchased
+219,Purchased,Not Purchased
+606,Purchased,Purchased
+1662,Purchased,Purchased
+666,Purchased,Purchased
+1293,Purchased,Purchased
+1822,Purchased,Purchased
+1264,Purchased,Purchased
+124,Purchased,Purchased
+584,Purchased,Purchased
+1370,Not Purchased,Not Purchased
+233,Not Purchased,Not Purchased
+1672,Purchased,Purchased
+1921,Purchased,Purchased
+1907,Purchased,Purchased
+1882,Purchased,Purchased
+1000,Purchased,Purchased
+1236,Purchased,Purchased
+655,Purchased,Not Purchased
+1954,Purchased,Purchased
+1680,Purchased,Purchased
+1979,Purchased,Purchased
+438,Purchased,Purchased
+1458,Not Purchased,Not Purchased
+396,Not Purchased,Not Purchased
+1730,Purchased,Purchased
+1270,Purchased,Purchased
+199,Purchased,Not Purchased
+1786,Purchased,Not Purchased
+1667,Purchased,Purchased
+1151,Purchased,Purchased
+845,Purchased,Purchased
+1379,Purchased,Purchased
+1937,Not Purchased,Purchased
+450,Purchased,Purchased
+1724,Purchased,Purchased
+101,Purchased,Purchased
+186,Purchased,Purchased
+885,Not Purchased,Purchased
+1606,Purchased,Purchased
+900,Not Purchased,Purchased
+115,Purchased,Purchased
+194,Not Purchased,Purchased
+1032,Purchased,Purchased
+1482,Purchased,Purchased
+357,Not Purchased,Not Purchased
+1651,Purchased,Purchased
+1415,Purchased,Purchased
+83,Purchased,Purchased
