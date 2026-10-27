@@ -1,0 +1,4 @@
+K Value,Training Accuracy (%),Testing Accuracy (%)
+1,100.0,100.0
+3,95.0,100.0
+5,97.5,100.0
