@@ -1,0 +1,4 @@
+Method,Predicted Purchase
+Manual KNN (raw features),No
+Manual KNN (scaled features),No
+Scikit-learn KNN (scaled features),No
