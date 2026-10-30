@@ -1,0 +1,47 @@
+
+KNN SCALING AND EVALUATION LAB
+================================
+
+Dataset Information
+-------------------
+Total Records: 2000
+Features: Age, Income, Website Visits, Time Spent, Previous Purchases, Product Views
+Target Variable: Purchased
+
+Training Records: 1600
+Testing Records: 400
+
+Best K Value: 7
+
+Model Comparison
+----------------
+                  Model  K  Accuracy  Precision   Recall  F1-score
+    KNN Without Scaling  7    0.7400   0.781421 0.922581  0.846154
+KNN with StandardScaler  7    0.8475   0.878419 0.932258  0.904538
+  KNN with MinMaxScaler  7    0.8525   0.883792 0.932258  0.907378
+
+Best Model: KNN with MinMaxScaler
+
+Best Model Accuracy: 0.8525
+Best Model Precision: 0.8838
+Best Model Recall: 0.9323
+Best Model F1-Score: 0.9074
+
+Scaling Analysis
+----------------
+StandardScaler improved performance. KNN uses distance calculations, so features with larger numeric ranges can dominate the distance. Scaling gives features a more comparable influence.
+
+Conclusion
+----------
+KNN is a distance-based algorithm. Feature scaling is important
+because features with larger numeric ranges can dominate distance
+calculations.
+
+StandardScaler standardizes features using their mean and standard
+deviation, while MinMaxScaler scales values into a 0-to-1 range.
+
+The best scaling method should be selected using cross-validation
+on the training data. The test set is reserved for final evaluation.
+
+Note: This is an experimental customer dataset. Results should not
+be interpreted as evidence of real customer purchasing behavior.
