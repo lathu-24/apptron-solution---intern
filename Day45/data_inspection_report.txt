@@ -1,0 +1,112 @@
+
+
+STUDENT PASS/FAIL PREDICTION
+DATASET INSPECTION REPORT
+========================================
+
+1. DATASET INFORMATION
+
+Total Records: 1000
+
+Total Features: 4
+
+Target Variable: Result
+
+
+2. FEATURE COLUMNS
+
+['Study Hours', 'Attendance Percentage', 'Assignment Score', 'Previous Exam Score']
+
+
+3. DATA TYPES
+
+Study Hours              float64
+Attendance Percentage    float64
+Assignment Score         float64
+Previous Exam Score      float64
+Result                    object
+
+
+4. MISSING VALUES
+
+Study Hours              0
+Attendance Percentage    0
+Assignment Score         0
+Previous Exam Score      0
+Result                   0
+
+Total Missing Values: 0
+
+
+5. DUPLICATE RECORDS
+
+0
+
+
+6. CLASS DISTRIBUTION
+
+Result
+Pass    892
+Fail    108
+
+
+7. CLASS DISTRIBUTION PERCENTAGE
+
+Result
+Pass    89.2
+Fail    10.8
+
+
+8. FEATURE AND TARGET INFORMATION
+
+Features:
+Study Hours
+Attendance Percentage
+Assignment Score
+Previous Exam Score
+
+Target:
+Result
+
+Fail = 0
+Pass = 1
+
+
+9. TRAINING AND TESTING SPLIT
+
+Training Records: 800
+
+Testing Records: 200
+
+Training Percentage: 80%
+
+Testing Percentage: 20%
+
+Random State: 42
+
+
+10. WHY THE SAME DATA SPLIT IS IMPORTANT
+
+Using the same training and testing split for every
+classification model ensures a fair comparison.
+
+Each model receives the same training records and is
+evaluated using the same unseen testing records.
+
+This prevents differences in model performance from
+being caused by different data splits.
+
+It makes the comparison more consistent and reproducible.
+
+
+11. DATASET DISCLAIMER
+
+This dataset contains synthetically generated student
+records. It is created for educational and machine
+learning practice purposes.
+
+It does not represent real student academic records.
+
+========================================
+END OF REPORT
+
