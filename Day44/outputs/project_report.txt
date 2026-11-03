@@ -1,0 +1,74 @@
+CUSTOMER PURCHASE PREDICTION SYSTEM
+===================================
+
+1. PROJECT OVERVIEW
+The goal is to predict whether a customer will purchase a product
+using customer demographic and website engagement features.
+
+2. DATASET
+Dataset file: customer_purchase_dataset.csv
+Dataset size after cleaning: 2000 rows
+Features: Age, Income, Website Visits, Time Spent, Previous Purchases, Product Views
+Target: Purchased (0 = No, 1 = Yes)
+
+DATA DISCLAIMER:
+The supplied educational dataset is synthetic/generated data.
+It is not a real customer dataset and should not be used to make
+real business decisions.
+
+3. DATA PREPARATION
+- Removed duplicate records.
+- Removed rows with missing values.
+- Used a stratified 80/20 train/test split.
+- Applied StandardScaler inside a Scikit-learn Pipeline.
+- The scaler was fitted on training data only.
+
+4. MODEL SELECTION
+Algorithm: K-Nearest Neighbors (KNN)
+Cross-validation: 5-fold StratifiedKFold
+Selection metric: Mean validation F1-score
+Selected K: 7
+
+K VALUE COMPARISON
+ K  Mean CV F1  Std CV F1  Mean CV Accuracy
+ 3      0.8964     0.0158            0.8356
+ 5      0.9080     0.0096            0.8531
+ 7      0.9167     0.0073            0.8669
+ 9      0.9152     0.0079            0.8637
+11      0.9139     0.0106            0.8612
+13      0.9132     0.0095            0.8594
+15      0.9143     0.0123            0.8612
+17      0.9142     0.0122            0.8612
+19      0.9150     0.0117            0.8619
+
+5. FINAL TEST RESULTS
+Accuracy: 0.8475
+Precision: 0.8784
+Recall: 0.9323
+F1-score: 0.9045
+
+Confusion matrix (rows = actual, columns = predicted):
+[[ 50  40]
+ [ 21 289]]
+
+6. INTERPRETATION
+Accuracy measures the overall proportion of correct predictions.
+Precision measures how many predicted purchasers actually purchased.
+Recall measures how many actual purchasers were identified.
+F1-score balances precision and recall.
+
+7. LIMITATIONS
+- The dataset is synthetic, so its patterns may not represent real customers.
+- KNN is sensitive to feature scaling and the choice of K.
+- KNN prediction can become slower as the training dataset grows.
+- Customer behavior can change over time.
+- Predictions show patterns in the supplied dataset, not certainty about
+  an individual's future behavior.
+- The example new-customer profiles are illustrative.
+
+8. CONCLUSION
+The final KNN model was selected using cross-validation on training data.
+The test set was kept separate and used for final evaluation only.
+The model can demonstrate a basic purchase prediction workflow, but
+real-world deployment would require validated real customer data,
+privacy safeguards, monitoring and further testing.
