@@ -1,0 +1,4 @@
+Model,Accuracy,Precision (Fail),Recall (Fail),F1-Score (Fail)
+Logistic Regression,0.96,0.8889,0.7273,0.8
+Decision Tree,0.935,0.8,0.5455,0.6486
+KNN,0.95,0.8333,0.6818,0.75

@@ -1,0 +1,59 @@
+
+STUDENT RESULT PREDICTION - RESULTS ANALYSIS
+=============================================
+
+1. MODEL COMPARISON
+
+              Model  Accuracy  Precision (Fail)  Recall (Fail)  F1-Score (Fail)
+Logistic Regression     0.960            0.8889         0.7273           0.8000
+      Decision Tree     0.935            0.8000         0.5455           0.6486
+                KNN     0.950            0.8333         0.6818           0.7500
+
+
+2. FALSE POSITIVE
+
+A false positive occurs when a student who actually
+passes is incorrectly predicted to fail.
+
+
+3. FALSE NEGATIVE
+
+A false negative occurs when a student who actually
+fails is incorrectly predicted to pass.
+
+False negatives are important because the system
+fails to identify students who need additional support.
+
+
+4. BEST MODEL BASED ON ACCURACY
+
+Logistic Regression
+
+Accuracy: 0.96
+
+
+5. BEST MODEL FOR IDENTIFYING STUDENTS WHO MAY FAIL
+
+Logistic Regression
+
+Fail Recall: 0.7273
+
+
+6. CONCLUSION
+
+The models were compared using accuracy, precision,
+recall and F1-score.
+
+The model with the highest accuracy provides the
+best overall percentage of correct predictions.
+
+However, identifying students who may fail is also
+important. Therefore, recall for the Fail class is
+particularly important.
+
+The model with the highest Fail recall is the best
+at identifying students who may need additional
+academic support.
+
+The final model selection should consider both
+accuracy and Fail recall rather than accuracy alone.
