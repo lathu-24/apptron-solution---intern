@@ -1,0 +1,4 @@
+Model,CV Fail Recall,Best Parameters
+Logistic Regression,0.7686,{'model__C': 100}
+Decision Tree,0.6275,"{'model__max_depth': 7, 'model__min_samples_leaf': 2, 'model__min_samples_split': 2}"
+KNN,0.7333,"{'model__n_neighbors': 9, 'model__weights': 'distance'}"

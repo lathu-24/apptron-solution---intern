@@ -1,0 +1,113 @@
+
+
+THREE-MODEL COMPARISON SYSTEM
+STUDENT PASS/FAIL PREDICTION
+==============================================
+
+DATASET INFORMATION
+
+Total Records: 1000
+
+Training Records: 800
+
+Testing Records: 200
+
+Features:
+- Study Hours
+- Attendance Percentage
+- Assignment Score
+- Previous Exam Score
+
+Target:
+- Result (Pass/Fail)
+
+
+MODEL COMPARISON
+
+              Model  Accuracy  Fail Precision  Fail Recall  Fail F1-Score
+Logistic Regression     0.960          0.8889       0.7273         0.8000
+      Decision Tree     0.915          0.6190       0.5909         0.6047
+                KNN     0.950          0.8333       0.6818         0.7500
+
+
+1. LOGISTIC REGRESSION
+
+Logistic Regression is a classification algorithm
+that predicts the probability of a student passing
+or failing.
+
+StandardScaler is used because the features have
+different numerical ranges.
+
+
+2. DECISION TREE
+
+Decision Tree makes predictions using a sequence
+of decision rules.
+
+Maximum depth and other parameters are tuned
+using cross-validation.
+
+
+3. K-NEAREST NEIGHBORS
+
+KNN predicts the result based on the nearest
+training records.
+
+StandardScaler is important because KNN uses
+distance calculations.
+
+
+4. FALSE POSITIVE
+
+A false positive occurs when a student who actually
+passes is incorrectly predicted to fail.
+
+
+5. FALSE NEGATIVE
+
+A false negative occurs when a student who actually
+fails is incorrectly predicted to pass.
+
+False negatives are important because the system
+fails to identify students who need academic support.
+
+
+6. BEST MODEL BASED ON ACCURACY
+
+Model: Logistic Regression
+
+Accuracy: 0.96
+
+
+7. BEST MODEL FOR IDENTIFYING STUDENTS WHO MAY FAIL
+
+Model: Logistic Regression
+
+Fail Recall: 0.7273
+
+
+8. FINAL CONCLUSION
+
+The three classification algorithms were trained
+and evaluated using the same training and testing
+records.
+
+Accuracy measures the overall percentage of
+correct predictions.
+
+However, accuracy alone is not sufficient for
+student risk identification.
+
+Fail Recall is particularly important because
+it measures how many actual failing students
+are correctly identified.
+
+The model with the highest Fail Recall is the
+strongest candidate for identifying students
+who may need additional academic support.
+
+The final model recommendation should consider
+both Accuracy and Fail Recall, along with
+Precision and F1-Score.
+
