@@ -1,0 +1,4 @@
+Model,Prediction Time (ms)
+Logistic Regression,0.4473
+Decision Tree,0.3484
+KNN,4.1294

@@ -1,0 +1,88 @@
+
+
+MODEL RESULTS ANALYSIS DASHBOARD
+================================
+
+DATASET
+-------
+Student Pass/Fail Prediction Dataset
+
+Models:
+- Logistic Regression
+- Decision Tree
+- KNN
+
+
+1. MODEL PERFORMANCE
+
+              Model  Training Accuracy  Testing Accuracy  Precision (Fail)  Recall (Fail)  F1-Score (Fail)  Performance Gap
+Logistic Regression             0.9613             0.950            0.9286         0.5909           0.7222           0.0113
+      Decision Tree             0.9700             0.935            0.8000         0.5455           0.6486           0.0350
+                KNN             0.9650             0.950            0.8333         0.6818           0.7500           0.0150
+
+
+2. OVERFITTING ANALYSIS
+
+              Model  Training Accuracy  Testing Accuracy  Performance Gap
+Logistic Regression             0.9613             0.950           0.0113
+      Decision Tree             0.9700             0.935           0.0350
+                KNN             0.9650             0.950           0.0150
+
+
+3. FIVE OBSERVATIONS
+
+1. Logistic Regression achieved the highest test accuracy of 0.9500.
+2. KNN achieved the highest Fail Recall of 0.6818, making it the strongest model for identifying students who may fail.
+3. Logistic Regression achieved the highest Fail Precision of 0.9286.
+4. Decision Tree had the largest training/testing accuracy gap of 0.0350.
+5. Decision Tree had the shortest average prediction time of 0.3484 ms.
+
+
+4. MODEL RECOMMENDATION
+
+Recommended Model: KNN
+
+Test Accuracy: 0.95
+
+Fail Precision: 0.8333
+
+Fail Recall: 0.6818
+
+Fail F1-Score: 0.75
+
+
+5. CONFUSION MATRIX ANALYSIS
+
+Fail is treated as the positive class.
+
+False Positive:
+A student actually passes but is predicted to fail.
+
+False Negative:
+A student actually fails but is predicted to pass.
+
+For student risk identification, false negatives
+are particularly important because the system
+fails to identify students who need academic support.
+
+
+6. FINAL CONCLUSION
+
+The three models were compared using test accuracy,
+precision, recall and F1-score.
+
+The highest accuracy model is not automatically
+the best choice for every situation.
+
+For identifying students who may fail, Fail Recall
+is particularly important.
+
+The recommended model is the one with the highest
+Fail Recall, provided its accuracy and precision
+are also acceptable.
+
+The training and testing accuracy comparison helps
+identify possible overfitting.
+
+The prediction time comparison provides additional
+information about model efficiency.
