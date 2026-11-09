@@ -1,0 +1,28 @@
+{
+  "recommended_model": "Logistic Regression",
+  "train_records": 800,
+  "test_records": 200,
+  "test_metrics": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.845,
+      "Fail Precision": 0.4117647058823529,
+      "Fail Recall": 0.9545454545454546,
+      "Fail F1": 0.5753424657534246
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.805,
+      "Fail Precision": 0.33962264150943394,
+      "Fail Recall": 0.8181818181818182,
+      "Fail F1": 0.48
+    },
+    {
+      "Model": "KNN",
+      "Accuracy": 0.94,
+      "Fail Precision": 0.6923076923076923,
+      "Fail Recall": 0.8181818181818182,
+      "Fail F1": 0.75
+    }
+  ]
+}

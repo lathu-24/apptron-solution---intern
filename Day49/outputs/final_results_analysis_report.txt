@@ -1,0 +1,62 @@
+FINAL PRACTICAL TASK – RESULTS ANALYSIS
+========================================
+
+Objective
+Predict students at risk of failing from academic indicators.
+
+Dataset and source
+Dataset loaded from data/student_dataset.csv; add its original source details.
+Cleaned records: 1000
+Features: Study Hours, Attendance Percentage, Assignment Score, Previous Exam Score
+Target: Result (Pass/Fail)
+Target definition: Fail=1 (student is at risk/has a failing result);
+Pass=0 (student has a passing result).
+
+Preprocessing and EDA
+Removed duplicate rows, converted feature values to numeric, treated
+out-of-range values as missing, and used median imputation inside pipelines.
+EDA charts and the data inspection report are saved in outputs/.
+
+Experiment setup
+Stratified 80/20 train/test split; random_state=42.
+Five-fold StratifiedKFold cross-validation on training data only.
+Grid search selected settings by Fail recall. Test set was held out
+from model selection.
+
+Validation comparison
+              Model  CV Accuracy  CV Precision  CV Recall    CV F1                                                                        Best Settings
+Logistic Regression      0.88000      0.477558   0.941830 0.632160                                           {'model__C': 0.01, 'model__penalty': 'l2'}
+      Decision Tree      0.83625      0.381403   0.836601 0.523712 {'model__max_depth': 3, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2}
+                KNN      0.95375      0.818634   0.732680 0.772486               {'model__n_neighbors': 5, 'model__p': 2, 'model__weights': 'distance'}
+
+Held-out test comparison
+              Model  Accuracy  Fail Precision  Fail Recall  Fail F1
+Logistic Regression     0.845        0.411765     0.954545 0.575342
+      Decision Tree     0.805        0.339623     0.818182 0.480000
+                KNN     0.940        0.692308     0.818182 0.750000
+
+Training/testing comparison
+              Model  Train Accuracy  Test Accuracy  Accuracy Gap  Train Fail Recall  Test Fail Recall  Fail Recall Gap
+Logistic Regression          0.8850          0.845        0.0400           0.953488          0.954545        -0.001057
+      Decision Tree          0.8475          0.805        0.0425           0.953488          0.818182         0.135307
+                KNN          1.0000          0.940        0.0600           1.000000          0.818182         0.181818
+
+Observations
+1. Logistic Regression: accuracy 0.845, Fail precision 0.412, Fail recall 0.955, Fail F1 0.575.
+2. Decision Tree: accuracy 0.805, Fail precision 0.340, Fail recall 0.818, Fail F1 0.480.
+3. KNN: accuracy 0.940, Fail precision 0.692, Fail recall 0.818, Fail F1 0.750.
+4. Logistic Regression: train-test accuracy gap 0.040 (small gap: no strong accuracy-gap warning).
+5. Decision Tree: train-test accuracy gap 0.042 (small gap: no strong accuracy-gap warning).
+6. KNN: train-test accuracy gap 0.060 (moderate gap: inspect possible overfitting).
+
+Recommendation
+Recommended model: Logistic Regression
+It achieved the highest held-out Fail recall (with Fail F1 and accuracy
+as tie-breakers). Fail recall matters because a false negative is a student
+who actually fails but is not identified for support. Also review precision:
+false positives can lead to unnecessary interventions.
+
+Limitations
+Model performance depends on data quality and representativeness. Synthetic
+data is for demonstrating the workflow only, not evidence of real-world
+student outcomes. Use predictions to support, not replace, educator judgement.
