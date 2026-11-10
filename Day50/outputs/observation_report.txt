@@ -1,0 +1,25 @@
+CUSTOMER DATA EXPLORATION REPORT
+
+Rows after cleaning: 300
+Columns: 4
+Duplicate rows removed: 0
+Missing values after cleaning: 0
+
+SUMMARY STATISTICS
+                 Mean  Median  Minimum  Maximum
+Age             43.90   44.00     18.0     70.0
+Annual Income   60.27   60.15     15.0    135.0
+Spending Score  62.94   72.70      1.0    100.0
+
+OBSERVATIONS
+1. Annual Income and Spending Score correlation: -0.09.
+2. Customers with lower-quartile income and upper-quartile spending score: 22.
+3. Customers with upper-quartile income and lower-quartile spending score: 20.
+4. Customer ages range from 18 to 70 years.
+5. Check the scatter plot for separated groups and unusual points; these may indicate distinct customer segments.
+
+CLUSTERING FEATURES
+Use Age, Annual Income, and Spending Score as clustering features.
+Exclude Customer ID: it is an arbitrary identifier, not a behavioural measurement.
+Including it can create meaningless distance relationships between customers.
+Standardize the selected features before distance-based clustering such as K-Means.
