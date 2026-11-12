@@ -1,0 +1,54 @@
+
+CUSTOMER CLUSTERING - ANALYSIS REPORT
+
+Dataset Records: 300
+
+Selected Features:
+- Annual Income
+- Spending Score
+
+Scaling Method:
+StandardScaler
+
+K Values Tested:
+1 to 10
+
+Selected K:
+4
+
+Silhouette Best K:
+2
+
+METHOD COMPARISON:
+Elbow suggests K=4, while Silhouette suggests K=2.
+
+WHY THIS K WAS SELECTED:
+
+The selected K represents the estimated elbow point,
+where the reduction in inertia starts slowing down.
+
+WHY THE ELBOW IS NOT ALWAYS DEFINITIVE:
+
+Some datasets do not have a clear elbow point.
+The inertia curve may decrease gradually, making
+the best K difficult to identify.
+
+Therefore, the Elbow Method should be supported by
+Silhouette Scores, cluster visualizations and
+business knowledge.
+
+CLUSTER COUNTS:
+
+Cluster
+0    56
+1    88
+2    91
+3    65
+
+CONCLUSION:
+
+K-Means successfully grouped customers according to
+their Annual Income and Spending Score.
+
+These clusters can help identify different customer
+behaviour patterns for marketing and business decisions.
