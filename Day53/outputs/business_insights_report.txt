@@ -1,0 +1,93 @@
+
+CUSTOMER SEGMENTATION ANALYSIS REPORT
+
+Dataset Records: 300
+
+Selected K: 3
+
+Main Features:
+Annual Income and Spending Score
+
+Clustering Algorithm:
+K-Means
+
+==================================================
+CLUSTER PROFILE TABLE
+==================================================
+
+         Customer_Count  Average_Age  Average_Annual_Income  Average_Spending_Score  Percentage                       Segment_Name                                          Business_Action_1                                           Business_Action_2
+Cluster                                                                                                                                                                                                                                                  
+0                    84        46.10                  34.57                   73.50       28.00   Budget-Conscious Active Shoppers            Offer discounts and affordable product bundles.       Introduce loyalty points and limited-time promotions.
+1                   116        42.12                  71.91                   87.07       38.67            Premium Active Spenders             Offer VIP rewards and premium product bundles.  Provide early access to new products and exclusive offers.
+2                   100        44.13                  68.36                   26.08       33.33  Affluent Low-Engagement Customers  Send personalized promotions based on customer interests.     Use targeted campaigns to increase customer engagement.
+
+
+==================================================
+BUSINESS FINDINGS
+==================================================
+
+1. Cluster 1 is the largest customer group, containing 116 customers (38.67%).
+2. Cluster 1 has the highest average annual income of 71.91.
+3. Cluster 1 has the highest average spending score of 87.07.
+
+
+==================================================
+BUSINESS RECOMMENDATIONS
+==================================================
+
+
+Cluster 0: Budget-Conscious Active Shoppers
+
+Action 1: Offer discounts and affordable product bundles.
+
+Action 2: Introduce loyalty points and limited-time promotions.
+
+
+
+Cluster 1: Premium Active Spenders
+
+Action 1: Offer VIP rewards and premium product bundles.
+
+Action 2: Provide early access to new products and exclusive offers.
+
+
+
+Cluster 2: Affluent Low-Engagement Customers
+
+Action 1: Send personalized promotions based on customer interests.
+
+Action 2: Use targeted campaigns to increase customer engagement.
+
+
+
+==================================================
+BONUS: AGE AND SPENDING SCORE
+==================================================
+
+                      Customer_Count  Average_Age  Average_Annual_Income  Average_Spending_Score  Percentage
+Age_Spending_Cluster                                                                                        
+0                                 91        27.54                  60.59                   72.46       30.33
+1                                 96        49.15                  62.14                   25.16       32.00
+2                                113        52.63                  58.43                   87.37       37.67
+
+==================================================
+LIMITATION
+==================================================
+
+K-Means depends on the selected features and number of clusters.
+It can also be sensitive to outliers and may not identify complex
+customer behaviour.
+
+The results show patterns in this dataset, but they do not
+necessarily explain why customers behave in a particular way.
+
+
+==================================================
+CONCLUSION
+==================================================
+
+Customer segmentation helps businesses understand different
+customer groups.
+
+The identified segments can support targeted marketing,
+personalized offers and customer engagement strategies.
