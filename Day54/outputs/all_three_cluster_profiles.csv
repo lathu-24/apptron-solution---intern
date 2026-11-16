@@ -1,0 +1,5 @@
+Cluster,Customer_Count,Average_Age,Average_Annual_Income,Average_Spending_Score,Percentage,Segment_Name,Action_1,Action_2
+0,210,27.48,31.97,76.96,26.25,Value-Seeking Active Spenders,Offer affordable bundles and coupons.,Use loyalty points to encourage repeat purchases.
+1,192,47.47,88.75,26.99,24.0,Affluent Low-Engagement Customers,Send tailored re-engagement offers.,Collect feedback and test premium experiences.
+2,205,33.28,94.06,79.45,25.62,Premium High-Value Customers,Offer VIP rewards and early access.,Use personalized cross-selling and retention campaigns.
+3,193,50.25,32.79,24.43,24.12,Low-Spend Budget Customers,Highlight essential products and value pricing.,Use low-cost promotions and monitor response.

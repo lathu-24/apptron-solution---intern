@@ -1,0 +1,71 @@
+COMPLETE CUSTOMER SEGMENTATION REPORT
+
+DATA QUALITY
+{
+  "rows_before": 800,
+  "rows_after": 800,
+  "duplicates_removed": 0,
+  "missing_after": 0
+}
+
+SUMMARY STATISTICS
+                 Mean  Median  Minimum  Maximum
+Age             39.26   38.00     18.0     75.0
+Annual Income   61.70   57.85     10.0    130.2
+Spending Score  52.93   57.40      1.0    100.0
+
+FEATURE SELECTION
+Main features: ['Annual Income', 'Spending Score']. They represent customer purchasing capacity and spending
+behaviour. Customer ID is excluded because it is an arbitrary identifier. Age is used
+for profiling and alternative feature comparisons.
+
+MODEL SELECTION
+K=1..10 evaluated using inertia. Silhouette scores evaluated for K=2..10.
+Selected K=4, chosen by the highest silhouette score, with the elbow curve
+and business usefulness to be reviewed before final adoption. This is a transparent
+heuristic rather than a universal optimum.
+
+CLUSTER PROFILE
+         Customer_Count  Average_Age  Average_Annual_Income  Average_Spending_Score  Percentage                       Segment_Name                                         Action_1                                                 Action_2
+Cluster                                                                                                                                                                                                                                     
+0                   195        49.54                  33.25                   23.97       24.38         Low-Spend Budget Customers  Highlight essential products and value pricing.            Use low-cost promotions and monitor response.
+1                   194        46.68                  89.19                   26.75       24.25  Affluent Low-Engagement Customers              Send tailored re-engagement offers.           Collect feedback and test premium experiences.
+2                   208        27.94                  31.47                   77.47       26.00      Value-Seeking Active Spenders            Offer affordable bundles and coupons.        Use loyalty points to encourage repeat purchases.
+3                   203        33.89                  93.74                   80.64       25.37       Premium High-Value Customers              Offer VIP rewards and early access.  Use personalized cross-selling and retention campaigns.
+
+FIVE DATA-SUPPORTED FINDINGS
+1. Cluster 2 (Value-Seeking Active Spenders) is largest: 208 customers (26.0%).
+2. Cluster 3 has the highest average annual income: 93.74.
+3. Cluster 3 has the highest average spending score: 80.64.
+4. Cluster 0 has the lowest average spending score: 23.97.
+5. Average cluster ages range from 27.9 to 49.5 years.
+
+BUSINESS ACTIONS
+
+Cluster 0: Low-Spend Budget Customers
+1. Highlight essential products and value pricing.
+2. Use low-cost promotions and monitor response.
+
+Cluster 1: Affluent Low-Engagement Customers
+1. Send tailored re-engagement offers.
+2. Collect feedback and test premium experiences.
+
+Cluster 2: Value-Seeking Active Spenders
+1. Offer affordable bundles and coupons.
+2. Use loyalty points to encourage repeat purchases.
+
+Cluster 3: Premium High-Value Customers
+1. Offer VIP rewards and early access.
+2. Use personalized cross-selling and retention campaigns.
+
+LIMITATIONS
+K-Means is sensitive to outliers, scaling, feature selection and K, and works best
+when groups are reasonably compact around centroids. Synthetic data may not reflect
+real customer behaviour. Cluster labels describe patterns; they do not prove causes
+or predict future behaviour. Validate recommendations with real campaign results.
+
+BONUS
+See feature_set_comparison.csv and clustering_method_comparison.csv.
+The fitted scaler and model are saved in models/customer_kmeans_pipeline.joblib.
+Use assign_new_customers(new_dataframe) in main.py to assign new customers with the
+same saved preprocessing and model.

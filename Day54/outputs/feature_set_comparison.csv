@@ -1,0 +1,4 @@
+Feature_Set,Features,Silhouette_Score,Inertia
+income_spending,"Annual Income, Spending Score",0.6046148914409067,215.69669513214893
+age_spending,"Age, Spending Score",0.40842207241435874,278.68905079310855
+all_three,"Age, Annual Income, Spending Score",0.4531802192584253,630.901889160634
