@@ -1,0 +1,12 @@
+CUSTOMER CLUSTER OBSERVATION REPORT
+
+Cluster 0: Lower-income customers with high spending. Number of customers: 208. Average income: 31.47. Average spending score: 77.47.
+
+Cluster 1: High-income customers with high spending. Number of customers: 200. Average income: 93.85. Average spending score: 81.0.
+
+Cluster 2: High-income customers with relatively low spending. Number of customers: 104. Average income: 97.45. Average spending score: 20.85.
+
+Cluster 3: Lower-income customers with relatively low spending. Number of customers: 193. Average income: 32.98. Average spending score: 23.96.
+
+Cluster 4: High-income customers with relatively low spending. Number of customers: 95. Average income: 79.43. Average spending score: 34.11.
+
