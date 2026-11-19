@@ -1,0 +1,32 @@
+MULTI-FEATURE CUSTOMER CLUSTER ANALYSIS
+
+DATASET INFORMATION
+Total Customers: 800
+Number of Clusters: 4
+
+CLUSTER COUNTS
+Cluster
+0    195
+1    194
+2    208
+3    203
+
+CLUSTER FEATURE COMPARISON
+           Age  Annual Income  Spending Score
+Cluster                                      
+0        49.54          33.25           23.97
+1        46.68          89.19           26.75
+2        27.94          31.47           77.47
+3        33.89          93.74           80.64
+
+FEATURE SEPARATION ANALYSIS
+Annual Income     1.96
+Spending Score    1.95
+Age               1.63
+
+FIVE OBSERVATIONS
+1. Age: Cluster 0 has the highest average (49.54), while Cluster 2 has the lowest average (27.94).
+2. Annual Income: Cluster 3 has the highest average (93.74), while Cluster 2 has the lowest average (31.47).
+3. Spending Score: Cluster 3 has the highest average (80.64), while Cluster 0 has the lowest average (23.97).
+4. Cluster 2 is the largest group with 208 customers.
+5. Cluster 1 is the smallest group with 194 customers.
