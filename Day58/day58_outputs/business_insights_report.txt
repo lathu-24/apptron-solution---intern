@@ -1,0 +1,15 @@
+CUSTOMER CLUSTER BUSINESS INSIGHTS
+==================================================
+
+1. The largest customer segment is Cluster 2 with 208 customers (26.00%).
+
+2. The smallest customer segment is Cluster 1 with 194 customers.
+
+3. Cluster 3 has the highest average annual income (93.74).
+
+4. Cluster 3 has the highest average spending score (80.64).
+
+5. Cluster 0 has the lowest average spending score (23.97).
+
+6. Cluster 2 has the lowest average customer age (27.94).
+
