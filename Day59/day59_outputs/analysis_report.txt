@@ -1,0 +1,34 @@
+ADVANCED CLUSTER EXPLORER - ANALYSIS REPORT
+============================================================
+
+DATASET INFORMATION
+------------------------------
+Total customers: 800
+Features used: ['Age', 'Annual Income', 'Spending Score']
+Number of clusters: 4
+
+PCA EXPLAINED VARIANCE
+------------------------------
+PC1: 52.88%
+PC2: 33.68%
+Total: 86.56%
+
+OBSERVATIONS
+------------------------------
+1. PCA reduces the original 3 numerical features into two principal components.
+
+2. PC1 explains 52.88% of the total data variance.
+
+3. PC2 explains 33.68% of the total data variance.
+
+4. The two PCA components together explain 86.56% of the total variance.
+
+5. The PCA plot may show cluster separation or overlap, helping visualize relationships between customer groups.
+
+PCA LIMITATION
+------------------------------
+PCA reduces multiple dimensions into two components, which makes visualization easier. However, some information is lost during dimensionality reduction. Customers that are well separated in the original feature space may appear closer together or overlap in the 2D PCA plot. Therefore, the PCA visualization may not completely represent the original customer cluster structure.
+
+BONUS 3D PCA
+------------------------------
+First three components explain 100.00% of total variance.
